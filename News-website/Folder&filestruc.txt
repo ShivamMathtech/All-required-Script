@@ -1,0 +1,33 @@
+news_website/
+├── frontend/
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── styles.css
+│   │   ├── js/
+│   │   │   └── app.js
+│   │   └── images/
+│   ├── pages/
+│   │   ├── home.html
+│   │   └── article.html
+│   ├── components/
+│   └── index.html
+├── backend/
+│   ├── routes/
+│   │   ├── index.js
+│   │   └── articles.js
+│   ├── controllers/
+│   │   └── articleController.js
+│   ├── models/
+│   │   └── articleModel.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── config/
+│   │   └── db.js
+│   └── app.js
+├── database/
+│   ├── migrations/
+│   └── seeds/
+├── .env
+├── .gitignore
+├── README.md
+└── package.json
