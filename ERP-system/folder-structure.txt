@@ -1,0 +1,75 @@
+university_erp/
+│
+├── config/ # Configuration files (DB settings, environment variables)
+│ ├── db.js # Database configuration
+│ ├── env.js # Environment configurations (dev, prod)
+│ └── server.js # Server configuration and initialization
+│
+├── controllers/ # Business logic for various modules
+│ ├── authController.js # Authentication logic (login, logout, etc.)
+│ ├── adminController.js # Admin-specific functions
+│ ├── studentController.js # Student-related actions
+│ ├── facultyController.js # Faculty-related actions
+│ ├── accountantController.js # Accountant-related actions
+│ ├── librarianController.js # Librarian-specific functions
+│ └── commonController.js # Common functions shared across roles
+│
+├── middlewares/ # Middleware functions (authentication, error handling)
+│ ├── authMiddleware.js # Authentication middleware
+│ ├── roleMiddleware.js # Role-based access control middleware
+│ └── errorMiddleware.js # Error handling middleware
+│
+├── models/ # Database schemas/models
+│ ├── userModel.js # User model (common for all roles)
+│ ├── adminModel.js # Admin-specific model
+│ ├── studentModel.js # Student-specific model
+│ ├── facultyModel.js # Faculty-specific model
+│ ├── courseModel.js # Course-related model
+│ ├── financeModel.js # Finance-related model for accountant
+│ ├── libraryModel.js # Library-related model for librarian
+│ └── attendanceModel.js # Attendance tracking model
+│
+├── routes/ # Application routes
+│ ├── authRoutes.js # Routes for authentication
+│ ├── adminRoutes.js # Routes for admin role
+│ ├── studentRoutes.js # Routes for student role
+│ ├── facultyRoutes.js # Routes for faculty role
+│ ├── accountantRoutes.js # Routes for accountant role
+│ ├── librarianRoutes.js # Routes for librarian role
+│ └── commonRoutes.js # Common routes used across roles
+│
+├── services/ # Service layer (handling business logic and database operations)
+│ ├── authService.js # Authentication-related services
+│ ├── userService.js # User-related services (CRUD operations)
+│ ├── courseService.js # Course-related services
+│ ├── financeService.js # Finance-related services for accountant
+│ ├── libraryService.js # Library-related services for librarian
+│ └── notificationService.js # Notification services (email, SMS, etc.)
+│
+├── utils/ # Utility functions
+│ ├── validators/ # Validation functions (input validation)
+│ │ ├── authValidator.js # Validator for authentication inputs
+│ │ ├── studentValidator.js # Validator for student-related inputs
+│ │ └── courseValidator.js # Validator for course-related inputs
+│ ├── logger.js # Logger configuration and functions
+│ └── helper.js # Common helper functions
+│
+├── views/ # Views/templates (if using server-side rendering like EJS)
+│ ├── admin/ # Admin-specific templates
+│ ├── student/ # Student-specific templates
+│ ├── faculty/ # Faculty-specific templates
+│ ├── accountant/ # Accountant-specific templates
+│ ├── librarian/ # Librarian-specific templates
+│ └── shared/ # Shared templates (header, footer, etc.)
+│
+├── tests/ # Unit and integration tests
+│ ├── authTests.js # Tests for authentication
+│ ├── studentTests.js # Tests for student module
+│ ├── courseTests.js # Tests for course module
+│ └── financeTests.js # Tests for finance/accounting module
+│
+├── package.json # Project metadata and dependencies
+├── .env # Environment variables
+├── .gitignore # Files and folders to ignore in Git
+├── README.md # Project documentation
+└── server.js # Main application entry point
