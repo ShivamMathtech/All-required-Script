@@ -1,0 +1,69 @@
+BusinessWebsite/
+│
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── app.js
+│   ├── images/
+│   ├── fonts/
+│   └── index.html
+│
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   └── Footer.js
+│   ├── services/
+│   │   └── apiService.js
+│   └── utils/
+│       └── helpers.js
+│
+├── pages/
+│   ├── home/
+│   │   └── home.html
+│   ├── about/
+│   │   └── about.html
+│   ├── services/
+│   │   └── services.html
+│   ├── contact/
+│   │   └── contact.html
+│   └── blog/
+│       └── blog.html
+│
+├── assets/
+│   ├── logo.png
+│   └── favicon.ico
+│
+├── config/
+│   ├── appConfig.js
+│   └── .env.example
+│
+├── frontend/
+│   ├── styles/
+│   │   └── global.css
+│   └── scripts/
+│       └── main.js
+│
+├── backend/
+│   ├── controllers/
+│   │   └── userController.js
+│   ├── models/
+│   │   └── userModel.js
+│   ├── routes/
+│   │   └── userRoutes.js
+│   ├── config/
+│   │   └── dbConfig.js
+│   └── middleware/
+│       └── authMiddleware.js
+│
+├── tests/
+│   └── app.test.js
+│
+├── docs/
+│   └── readme.md
+│
+├── logs/
+├── temp/
+├── README.md
+├── .gitignore
+└── package.json
